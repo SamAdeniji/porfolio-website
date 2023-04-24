@@ -7,10 +7,13 @@ function Footer() {
     <BrowserRouter>
       <footer className=" bg-black">
         <div className=" text-5xl flex justify-center gap-16 py-3 text-gray-600 mt-16 ">
-          <Link to="https://www.linkedin.com/in/adeniji-oluwasegun-215570130/">
+          <Link
+            to="https://www.linkedin.com/in/adeniji-oluwasegun-215570130/"
+            target="_blank"
+          >
             <AiFillLinkedin />
           </Link>
-          <Link to="https://twitter.com/AgbaStack">
+          <Link to="https://twitter.com/AgbaStack" target="_blank">
             <AiFillTwitterCircle />
           </Link>
         </div>
@@ -23,3 +26,4 @@ function Footer() {
 }
 
 export default Footer;
+//

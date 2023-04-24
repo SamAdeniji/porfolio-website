@@ -9,7 +9,6 @@ function Home() {
     // access word count number
     // console.log(count);
   };
-
   const handleDone = () => {
     // console.log(`Done after 5 loops!`);
   };
